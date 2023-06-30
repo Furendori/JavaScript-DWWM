@@ -8,7 +8,7 @@ for (let i = 0; i < 13; i++) {
     tabNotes.push(userValue)
 }
 
-let somme= 0;
+let somme = 0;
 
 for (let i = 0; i < tabNotes.length; i++) {
     somme += tabNotes[i];
