@@ -1,6 +1,7 @@
 let tableau = [22, 4, -2, 0, 16, 6]
 let isSorted = false
 
+// Tri à sélection
 // for (let i = 0; i < tableau.length; i++) {
 //     for (let j = 0; j < tableau.length; j++) {
 //         if (tableau[i] < tableau[j]) {
@@ -11,7 +12,7 @@ let isSorted = false
 //     }
 // }
 
-
+// Tri à bulles
 while (!isSorted) {
     isSorted = true
     for (let i = 0; i < tableau.length -1; i++) { //22
