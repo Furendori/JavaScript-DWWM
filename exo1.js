@@ -1,6 +1,9 @@
-document.getElementById(clicNbr)
-document.getElementById(btnNbr)
+let nbrClicsP = document.getElementById("nbrClicsP")
+let boutonClic = document.getElementById("boutonClic")
 
-function maFonction() {
-    clicNbr++
+let nombreClics = 0
+
+function clicIncrement() {
+    nombreClics++
+    nbrClicsP.textContent = "Nombre de clics : " + nombreClics
 }
