@@ -34,6 +34,7 @@ let td3 = document.createElement('td')
 td3.textContent = '50'
 
 
+
 let tr3 = document.createElement('tr')
 tr3.setAttribute('class', 'third-tr')
 

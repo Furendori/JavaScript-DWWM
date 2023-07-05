@@ -1,3 +1,9 @@
+const css = 'p.error { color : red }'
+
+const style = document.createElement('style')
+style.innerHTML = css
+document.head.appendChild(style)
+
 let newP = document.createElement('p')
 newP.textContent = 'This a paragraph'
 let newP2 = document.createElement('p')
